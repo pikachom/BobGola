@@ -1,3 +1,5 @@
+# run $cp ./config.template ./config.properties
+
 ### Twitter Auth Config ###
 
 CONSUMER_KEY=getyourtokenfrom_developer.twitter.com

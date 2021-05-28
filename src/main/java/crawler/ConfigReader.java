@@ -13,7 +13,7 @@ public class ConfigReader {
 //            InputStream reader = getClass().getResourceAsStream(resource);
             FileInputStream fis = new FileInputStream(resource);
             prop.load(fis);
-            System.out.println(prop.getProperty("ACCESS_TOKEN"));
+//            System.out.println(prop.getProperty("ACCESS_TOKEN"));
 
         }catch(IOException e){
             e.printStackTrace();
