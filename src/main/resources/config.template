@@ -1,0 +1,6 @@
+### Twitter Auth Config ###
+
+CONSUMER_KEY=getyourtokenfrom_developer.twitter.com
+CONSUMER_SECRET=getyourtokenfrom_developer.twitter.com
+ACCESS_TOKEN=getyourtokenfrom_developer.twitter.com
+ACCESS_TOKEN_SECRET=getyourtokenfrom_developer.twitter.com

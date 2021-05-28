@@ -1,6 +1,9 @@
 plugins {
     id 'java'
 }
+ext {
+    javaVersion='11'
+}
 
 group 'org.example'
 version '1.0-SNAPSHOT'
@@ -8,6 +11,16 @@ version '1.0-SNAPSHOT'
 repositories {
     mavenCentral()
 }
+
+sourceSets {
+    main {
+        resources {
+            srcDirs "src/main/resources"
+        }
+    }
+}
+
+
 
 dependencies {
     // https://mvnrepository.com/artifact/org.twitter4j/twitter4j-core
