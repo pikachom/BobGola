@@ -57,12 +57,11 @@ public class CrawlerApp {
     }
     public void doCrawl() throws IOException, TwitterException {
         BufferedWriter bw = new BufferedWriter(new FileWriter("tweets.txt"));
-        Query query = buildQuery("dinner");
+        Query query = buildQuery("점심");
         QueryResult result = twitter.search(query);
         for(Status status : result.getTweets()){
             bw.write("@" + status.getUser().getScreenName() + ":"
-                        + status.getText() + "|||"
-                        + status.getRetweetCount() + "\r\n");
+                        + status.getText() + "\r\n");
         }
 //        System.out.println(result.getTweets().size());
         bw.close();

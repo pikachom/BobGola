@@ -151,3 +151,5 @@ gradle-app.setting
 
 # End of https://www.toptal.com/developers/gitignore/api/gradle,java,intellij
 /src/main/resources/config.properties
+
+tweets.txt
